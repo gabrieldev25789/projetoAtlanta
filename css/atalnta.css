@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  position: relative;
+  height: 300px;
+  background: url('https://images.unsplash.com/photo-1581404917879-8e2f82d49f0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  position: relative;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header img {
+  width: 40px;
+  height: auto;
+}
+
+/* HOT NEWS */
+.hot-news {
+  padding: 40px 10%;
+}
+
+.hot-news h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #e63946;
+  border-left: 6px solid #e63946;
+  border-right: 6px solid #e63946;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.hot-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  width: 150vh;
+  height: 120vh;
+}
+
+.hot-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+
+.hot-card:hover {
+  transform: scale(1.03);
+}
+
+.hot-card img {
+  width: 100%;
+  height: 900px; 
+  width: 800px;/* aumentado */
+  object-fit: cover;
+}
+
+.hot-card .content {
+  padding: 20px;
+}
+
+.hot-card h3 {
+  margin: 0;
+  font-size: 1.4rem; /* maior */
+  margin-bottom: 12px;
+  color: #f1faee;
+}
+
+.hot-card p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+
