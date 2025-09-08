@@ -155,5 +155,6 @@ visibility: hidden;
   #traduzir, 
   #traduzir2{
     margin-left: 2.6rem;
+    transition: 0.1S;
   }
 }
